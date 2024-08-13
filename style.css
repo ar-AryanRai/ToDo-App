@@ -1,8 +1,8 @@
-*{
+* {
   margin: 0;
 }
 
-body{
+body {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,27 +11,26 @@ body{
   background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
 }
 
-button{
+button {
   cursor: pointer;
   color: white;
   font-weight: bold;
   border: none;
 }
 
-.container{
+.container {
   height: 90%;
-  width: 35%;
+  width: 90%;
   /* border: 2px solid grey; */
   border-radius: 15px;
-  background:linear-gradient(90deg, #e7ecf5 0%, #c3cfe2 100%);
-  box-shadow: 0px -3px 10px #9da0a2,
-  0px 3px 10px rgb(90, 68, 68);
+  background: linear-gradient(90deg, #e7ecf5 0%, #c3cfe2 100%);
+  box-shadow: 0px -3px 10px #9da0a2, 0px 3px 10px rgb(90, 68, 68);
 }
 
-.header{
+.header {
   text-align: center;
   height: 180px;
-  width: 35%;
+  width: 90%;
   color: white;
   background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
   position: absolute;
@@ -39,11 +38,11 @@ button{
   border-top-right-radius: 15px;
 }
 
-.heading{
+.heading {
   padding-top: 30px;
 }
 
-.inputs{
+.inputs {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +57,7 @@ button{
 }
 
 .task-input,
-.date-input{
+.date-input {
   margin: 10px;
   width: 70%;
   padding: 10px 20px;
@@ -69,36 +68,36 @@ button{
   font-size: 16px;
 }
 
-.date-input{
+.date-input {
   margin-top: -5px;
-  width: 30%;
+  width: 50%;
 }
 
-input:focus{
+input:focus {
   border-color: #667eea;
   box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
   outline: none;
 }
 
-.add{
+.add {
   margin: 10px;
   width: 30%;
-  padding: 10px ;
+  padding: 10px;
   border-radius: 15px;
   background: linear-gradient(90deg, #fc4a1a 0%, #f7b733 100%);
 }
 
 .add:hover,
-.remove:hover{
+.remove:hover {
   box-shadow: 0 0 4px grey;
 }
 
-.tasks-show{
+.tasks-show {
   position: relative;
   top: 120px;
 }
 
-.task-container{
+.task-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -112,7 +111,7 @@ input:focus{
 }
 
 .task-show,
-.date-show{
+.date-show {
   text-transform: capitalize;
   font-size: 16px;
   width: 170px;
@@ -120,16 +119,16 @@ input:focus{
   border-radius: 15px;
 }
 
-.task-show{
+.task-show {
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.date-show{
+.date-show {
   width: 75px;
 }
 
-.remove{
+.remove {
   border-radius: 15px;
   padding: 5px 10px;
   background: linear-gradient(90deg, #3e5151 0%, #decba4 100%);
