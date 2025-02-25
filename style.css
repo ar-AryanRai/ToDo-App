@@ -20,7 +20,7 @@ button{
 
 .container{
   height: 90%;
-  width: 45%;
+  width: 40%;
   /* border: 2px solid grey; */
   border-radius: 15px;
   background:linear-gradient(90deg, #e7ecf5 0%, #c3cfe2 100%);
@@ -31,7 +31,7 @@ button{
 .header{
   text-align: center;
   height: 180px;
-  width: 45%;
+  width: 40%;
   color: white;
   background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
   position: absolute;
@@ -47,10 +47,10 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 26%;
+  height: 24%;
   width: 80%;
   margin-left: 10%;
-  padding-top: 30px;
+  padding-top: 5px;
   position: relative;
   top: 80px;
   background-color: white;
