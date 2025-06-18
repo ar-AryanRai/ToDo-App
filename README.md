@@ -2,7 +2,7 @@
 
 **ToDo-App** is a clean, responsive task manager that lets users create, delete, and manage their daily tasks with ease. It’s built using HTML5, CSS3, and Vanilla JavaScript — no frameworks, just pure web fundamentals.
 
-🌐 **Live Demo**: [ar-aryanrai.github.io/ToDo-App](https://ar-aryanrai.github.io/ToDo-App/)
+🌐 **Live Demo**: [Click here to visit ToDo-App](https://ar-aryanrai.github.io/ToDo-App/)
 
 ---
 
